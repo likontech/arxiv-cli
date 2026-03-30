@@ -1,0 +1,20 @@
+[package]
+name = "arxiv-cli"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+serde_json.workspace = true
+tokio.workspace = true
+arxiv-api = { path = "../arxiv-api" }
+oai-pmh = { path = "../oai-pmh" }
+paper-store = { path = "../paper-store" }
+harvester = { path = "../harvester" }
+
+[dev-dependencies]
+assert_cmd.workspace = true
+predicates.workspace = true
+tempfile.workspace = true
+httpmock.workspace = true

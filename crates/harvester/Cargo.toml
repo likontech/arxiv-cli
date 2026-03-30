@@ -1,0 +1,11 @@
+[package]
+name = "harvester"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+oai-pmh = { path = "../oai-pmh" }
+paper-store = { path = "../paper-store" }
+serde.workspace = true
+serde_json.workspace = true

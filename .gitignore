@@ -1,0 +1,9 @@
+# Rust build artifacts
+target/
+
+# Coverage artifacts
+coverage/
+*.profraw
+
+# macOS
+.DS_Store

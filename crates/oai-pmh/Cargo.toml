@@ -1,0 +1,12 @@
+[package]
+name = "oai-pmh"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+reqwest.workspace = true
+roxmltree.workspace = true
+serde.workspace = true
+tokio.workspace = true
+urlencoding.workspace = true
